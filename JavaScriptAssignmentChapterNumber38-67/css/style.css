@@ -1,0 +1,138 @@
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+   
+    /* width: 120px; */
+}
+
+.caption {
+    display: block;
+}
+
+
+.text-align 
+{
+    text-align: center; 
+}
+
+.incDec
+{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.screen-center
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+ /* Chapter # 53-57 and Task # 1 css */
+/* body 
+{
+    background-color:rgb(211,211,211);
+} */
+
+#row
+ {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    
+  }
+  
+  #column1,#column2,#column3,#column4 
+  {
+   width:15%;
+  
+  }
+
+  
+  #myImg,#myImg2,#myImg3,#myImg4
+    {
+        cursor: pointer;  
+        width: 200px;
+        height: 200px;   
+  }
+
+  .modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(211,211,211);  
+  
+  }
+  
+
+  .modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  height: 530px;
+  max-width: 700px;
+  overflow-y: auto;
+ 
+  }
+  
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #cccccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+ 
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #000000;
+    font-size: 50px;
+    font-weight: bold;
+    
+    
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+     
+    }
+  }
+
+ /* Chapter # 53-57 and Task # 1 Solution 2 using BootStrap and css */
+
+  .image
+  {
+      width: 100px;
+      height: 100px;
+      cursor: pointer;
+  }
+  .bigImg
+  {
+      width: 465px;
+      height: 465px;
+  }
+
+
+
